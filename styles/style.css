@@ -1,0 +1,62 @@
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background: #0ff0f0;
+    overflow-x: hidden;
+}
+
+#top {
+    background: #555555;
+    padding: 1.0rem 0;
+}
+
+#top .offer {
+    color: #ffffff;
+}
+
+#top .offer .btn {
+    text-transform: uppercase;
+}
+
+@media(max-width: 99.1rem){
+    #top .offer {
+        margin-bottom: 1.0rem;
+    }
+}
+
+@media(max-width: 99.1rem){
+    #top {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+#top a {
+    color: #ffffff;
+}
+#top ul .menu {
+     padding-top: 5rem;
+     margin: 0;
+     text-align: right;
+     font-size: 20px;
+     list-style: none;
+ }
+
+ @media(max-width: 99.1rem){
+    #top ul .menu {
+        text-align: center;
+    }
+}
+
+#top ul .menu > li {
+    display: inline;
+}
+
+#top ul .menu > li a {
+    color: #eeeeee;
+}
+#top ul .menu > li +li ::before {
+    content: "|\00a0";
+    color: #f7f7f7;
+    padding: 0 5px;
+}
